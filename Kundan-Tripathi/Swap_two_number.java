@@ -16,6 +16,6 @@ public class Swap_two_number {
         num1 = num2;
         num2 = temp;
 
-        System.out.println("Now the numbers after swap are x:- "+ num1 + ", y:- "+num2);
+        System.out.println("Now the numbers after swap are x:- "+ num1 + ",y:- "+num2);
     }
 }
