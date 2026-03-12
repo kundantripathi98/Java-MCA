@@ -1,6 +1,6 @@
 public class Maximum_and_SecondMax_element_in_Array {
     public static void main(String[] args) {
-        int[] arr = {3, 7, 1, 9, 4};
+        int[] arr = {3, 7, 1, 9, 4, 15};
 
         System.out.println(findMax(arr));
     }
@@ -17,8 +17,14 @@ public class Maximum_and_SecondMax_element_in_Array {
             secondMaxVal = num;
            }
         }
-        return maxVal;
 
-        // return secondMaxVal;
+        for(int num : arr){
+           if( num < maxVal && num > secondMaxVal){
+            secondMaxVal = num;
+           }
+        }
+        // return maxVal;
+
+        return secondMaxVal;
     }
 }
