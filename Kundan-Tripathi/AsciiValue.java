@@ -10,4 +10,4 @@ public class AsciiValue {
         System.out.println("The ASCII value of " + ch + " is: " + ascii);
         System.out.println("The ASCII value of " + ch + " is: " + castAscii);
     }
-}x
+}
